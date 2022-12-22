@@ -753,6 +753,7 @@ form textarea:focus {
 
     #showMenu {
         display: block;
+        width: 32px;
     }
         
     #navLinks {

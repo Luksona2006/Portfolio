@@ -419,7 +419,7 @@ header nav ul li a button:after {
 
 .benefits {
     width: 100%;
-    background: url(/images/bg-img.png);
+    background: url(images/bg-img.png);
     background-repeat: no-repeat;
     border-radius: 16px;
     padding: 112px 60px;
@@ -535,7 +535,7 @@ form button:focus {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    background: url(/images/bg-img2.png);
+    background: url(images/bg-img2.png);
     border-radius: 12px;
     padding: 60px;
     background-size: cover;

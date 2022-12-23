@@ -108,3 +108,17 @@ function hidemenu() {
 
 showMenu.addEventListener('click', showmenu)
 hideMenu.addEventListener('click', hidemenu)
+
+// NAVIGATION CLICK
+
+function linkClick() {
+    navLinks.style.left = "-100%";
+    navLinks.style.opacity = "0";
+    setTimeout(() => {
+        navLinks.style.display = "none"
+    }, 500);
+}
+
+for(let j = 0; j < document.querySelector('nav').querySelectorAll('li').length; j++) {
+    document.querySelector('nav').querySelectorAll('li')[j].addEventListener('click', linkClick)
+}

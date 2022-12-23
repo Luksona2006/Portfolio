@@ -560,10 +560,13 @@ form button:focus {
 
 .contact-div {
     cursor: pointer;
+    transition: 0.5s all ease-out;
+}
+
+.contact-div div {
     display: flex;
     align-items: center;
     gap: 8px;
-    transition: 0.5s all ease-out;
 }
 
 .contact-div:hover {
@@ -798,7 +801,7 @@ form textarea:focus {
         gap: 40px;
     }
 
-    .contact-div {
+    .contact-div div{
         flex-direction: column;
     }
 

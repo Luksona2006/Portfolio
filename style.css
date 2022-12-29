@@ -499,9 +499,21 @@ header nav ul li a button:after {
     margin: 0 8px;
 }
 
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.projects .text-box a {
+    max-width: 146px;
+    width: 100%;
+}
 
 .projects .text-box button {
-    width: unset;
+    max-width: 146px;
+    width: 100%;
     cursor: pointer;
     background-color: rgb(0, 174, 197);
     border: 2px solid rgb(0, 174, 197);
@@ -698,6 +710,10 @@ form textarea:focus {
     .project-div {
         flex-direction: column-reverse;
         gap: 40px;
+    }
+
+    .buttons {
+        justify-content: center;
     }
 
     .used-languages {

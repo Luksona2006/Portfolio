@@ -723,6 +723,10 @@ form textarea:focus {
     .text-box {
         text-align: center;
     }
+    
+    .one-button {
+        margin: auto;
+    }
 
 }
 

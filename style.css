@@ -370,12 +370,14 @@ header nav ul li a button:after {
 }
 
 #hideMenu {
+    cursor: pointer;
     position: absolute;
     left: 40px;
     display: none;
 }
 
 #showMenu {
+    cursor: pointer;
     display: none;
 }
 

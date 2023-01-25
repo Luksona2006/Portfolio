@@ -117,10 +117,10 @@ function linkClick() {
         navLinks.style.opacity = "0";
         setTimeout(() => {
             navLinks.style.display = "none"
-        }, 500);
+        }, 1000);
     }
 }
 
-for(let j = 0; j < document.querySelector('nav').querySelectorAll('li').length; j++) {
-    document.querySelector('nav').querySelectorAll('li')[j].addEventListener('click', linkClick)
-}
+document.querySelector('nav').querySelectorAll('li').forEach(element => {
+    element.addEventListener('click', linkClick)
+});
